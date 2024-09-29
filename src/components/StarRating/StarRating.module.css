@@ -1,12 +1,13 @@
-/* .filledStar {
-    color: gold;
+.filledStar {
+    color: var(--star-color-yellow);
      font-size: 24px;
+     width: 16px;
    
 }
 
 .emptyStar {
-    color: lightgray;
-
+    color: var(--secondary-color-grey-2);
+width: 16px;
     font-size: 24px;
    
-} */
+}

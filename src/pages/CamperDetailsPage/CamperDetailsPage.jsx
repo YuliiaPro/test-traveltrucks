@@ -11,7 +11,7 @@ import {
   selectLoading,
 } from '../../redux/campers/selectors';
 import { getCamperById } from '../../redux/campers/operation';
-import BookForm from '../../components/App/BookForm/BookForm';
+import BookForm from '../../components/BookForm/BookForm';
 import clsx from 'clsx';
 const getLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);

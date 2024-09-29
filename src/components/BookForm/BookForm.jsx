@@ -40,16 +40,18 @@ export default function BookForm() {
   };
 
   return (
-    <>
-      <h1>Book your campervan now</h1>
-      <p>Stay connected! We are always ready to help you.</p>
+    <div className={css.container}>
+      <h1 className={css.textHeader}>Book your campervan now</h1>
+      <p className={css.text}>
+        Stay connected! We are always ready to help you.
+      </p>
       <Formik
         initialValues={{ name: '', email: '', date: '', comment: '' }}
         onSubmit={handleSubmit}
         validationSchema={FeedbackSchema}
       >
         {({ setFieldValue }) => (
-          <Form className={css.container}>
+          <Form className={css.form}>
             <Field
               className={css.input}
               type="text"
@@ -82,7 +84,7 @@ export default function BookForm() {
             <ErrorMessage className={css.error} name="date" component="span" />
 
             <Field
-              className={css.input}
+              className={css.inputComment}
               type="text"
               name="comment"
               id={`${fieldId}-comment`}
@@ -94,13 +96,13 @@ export default function BookForm() {
               component="span"
             />
 
-            <button className={css.btn} type="submit">
+            <button className={css.button} type="submit">
               Send
             </button>
             <Toaster position="top-center" />
           </Form>
         )}
       </Formik>
-    </>
+    </div>
   );
 }
