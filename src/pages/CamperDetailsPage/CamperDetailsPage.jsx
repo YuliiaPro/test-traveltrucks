@@ -36,27 +36,24 @@ export default function CamperDetailPage() {
       {error && <ErrorMessage />}
       {camper && <CamperCard camper={camper} />}
       <div className={css.containerAdditional}>
-        <div className={css.add}>
-          <ul className={css.list}>
-            <li>
-              <NavLink
-                to={`/catalog/${camperId}/features`}
-                className={getLinkClass}
-              >
-                Features
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to={`/catalog/${camperId}/reviews`}
-                className={getLinkClass}
-              >
-                Reviews
-              </NavLink>
-            </li>
-          </ul>
-          <div className={css.line}></div>
-        </div>
+        <ul className={css.list}>
+          <li>
+            <NavLink
+              to={`/catalog/${camperId}/features`}
+              className={getLinkClass}
+            >
+              Features
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to={`/catalog/${camperId}/reviews`}
+              className={getLinkClass}
+            >
+              Reviews
+            </NavLink>
+          </li>
+        </ul>
         <Suspense fallback={<div>Loading sub components...</div>}>
           <Outlet />
         </Suspense>
