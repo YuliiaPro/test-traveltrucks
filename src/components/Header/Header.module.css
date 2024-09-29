@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color-white);
+    align-items: center;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+  
+}
+
+.logo {
+margin-right: auto;
+margin-left: 64px;
+ 
+}
+
+

@@ -1,0 +1,54 @@
+/* 
+.list {
+    display: flex;
+        flex-direction: column;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style-type: none;
+}
+.titleContainer{
+    display: flex;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.vehileList {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.vehileItem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.initialCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.initialLetter {
+    color: #D84343;
+        font-size: 32px;
+       
+
+} */

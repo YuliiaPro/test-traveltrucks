@@ -1,0 +1,69 @@
+.container {
+   margin-top: 100px;
+ position: relative;
+ width: 631px;
+ min-height: 588px;
+ background-color: var(--inputs);
+ padding: 24px;
+}
+.list {
+    display: flex;
+list-style-type: none;
+gap: 5px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.vehileList{
+    display: flex;
+        list-style-type: none;
+        gap: 5px;
+        flex-direction: column;
+}
+.vehileItem {
+    display: flex;
+      justify-content: space-between;
+    
+}
+
+.capitalize{
+text-transform: capitalize;
+}
+
+
+.equipmentList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.equipmentItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background-color: var(--secondary-color-grey-2);
+    color: var(--primary-dark);
+    border-radius: 32px;
+    padding: 12px 18px;
+    font-weight: 500px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.textHeader {
+    font-weight: bold;
+    font-size: 20px;
+   }
+
+   .line {
+       width: 100%;
+       height: 1px;
+       background-color: var(--secondary-color-grey-1);
+       margin: 10px 0;
+   }

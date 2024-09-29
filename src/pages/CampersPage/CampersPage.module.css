@@ -1,0 +1,16 @@
+.container {
+       margin-top: 72px;
+padding-left: 63px;
+padding-right: 63px;
+}
+
+.content{
+display: flex;
+  
+}
+.buttonContainer {
+       display: flex;
+       justify-content: center;
+        margin-top: 20px;
+    
+}

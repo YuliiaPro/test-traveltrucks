@@ -1,0 +1,13 @@
+.background {
+
+      background-size: cover;
+       background-position: center;
+     height: 100vh;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+       align-items: center;
+        color: white;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+       
+  }
