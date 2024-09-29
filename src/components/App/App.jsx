@@ -12,7 +12,7 @@ const CampersFeatures = lazy(() =>
 );
 const CampersRewiews = lazy(() => import('../CampersRewiews/CampersRewiews'));
 import css from './App';
-import Header from '../header/Header';
+import Header from '../Header/Header';
 
 export default function App() {
   return (
